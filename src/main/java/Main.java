@@ -95,11 +95,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        opAHash myMap = new opAHash(10);
+        opAHash myMap = new opAHash(4);
         myMap.insert(7);
         myMap.insert(2);
-        myMap.insert(17);
+        myMap.insert(1);
         myMap.insert(5);
+        myMap.insert(3);
         System.out.println(myMap.search(7));
         // myMap.delete(7);
         // myMap.search(7);
